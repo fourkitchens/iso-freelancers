@@ -9,6 +9,8 @@ export const subscribeAction = async (state, formData) => {
   const rawData = {
     email: formData.get("email"),
     name: formData.get("name"),
+    links: formData.get("links"),
+    funfacts: formData.get("funfacts"),
   }
 
   console.log({rawData})
@@ -26,7 +28,7 @@ export const subscribeAction = async (state, formData) => {
       range: "A1:B1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [[data.email, data.name]],
+        values: [[data.email, data.name, data.links, data.funfacts]],
       },
     });
 
