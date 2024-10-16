@@ -61,7 +61,7 @@ const Form = () => {
             <span className="text-base font-semibold leading-none uppercase">
               Fun fact about yourself
             </span>
-            <textarea id="funfact" name="funfact" rows="3" className="block w-full"></textarea>
+            <textarea id="funfacts" name="funfacts" rows="3" className="block w-full"></textarea>
           </label>
 
           <div className="relative">

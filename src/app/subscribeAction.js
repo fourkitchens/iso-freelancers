@@ -25,7 +25,7 @@ export const subscribeAction = async (state, formData) => {
 
     await sheets.spreadsheets.values.append({
       spreadsheetId,
-      range: "A1:B1",
+      range: "A1:D1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
         values: [[data.email, data.name, data.links, data.funfacts]],
