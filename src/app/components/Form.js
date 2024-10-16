@@ -10,7 +10,7 @@ const Form = () => {
 
   return (
     <div>
-      {formState.success ? (
+      {!formState.success ? (
         <form
           action={formAction}
           className={clsx(
