@@ -26,10 +26,12 @@ module.exports = {
           DEFAULT: '#F8F5EC',
           dark: '#EEEADE',
         },
+        rhubarb: { DEFAULT: '#E17C6F' }
       },
     },
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 };

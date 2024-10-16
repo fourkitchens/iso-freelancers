@@ -1,9 +1,11 @@
-import Image from "next/image";
+"use client";
+
 import Logo from "@/app/components/logo";
 import content from '@/app/docs/content-strategist.md';
 import about from '@/app/docs/about.md';
 import MarkdownRenderer from '@/app/components/MarkdownRenderer';
 import clsx from 'clsx';
+import Form from "../app/components/Form";
 
 export default function Home() {
   return (
@@ -18,7 +20,7 @@ export default function Home() {
           <div className="rounded-lg bg-kitchensKelly-light text-leafyGreen inline-block px-4 py-2 uppercase font-bold text-xl ">In search of...</div>
           <h1 className="text-5xl font-bold">Freelance Content Strategist </h1>
           <h2 className="text-4xl text-balance text-leafyGreen-light">Help Non-Profits and Universities Tell Their Stories</h2>
-          <p className="text-xl mt-8">Four Kitchens seeks a talented freelance Content Strategist and Writer for ongoing collaboration. You'll craft content strategies and create engaging, impactful content for clients in higher education, non-profits, and associations—driving results that matter.
+          <p className="text-xl mt-8">Four Kitchens seeks a talented freelance Content Strategist and Writer for ongoing collaboration. You&apos;ll craft content strategies and create engaging, impactful content for clients in higher education, non-profits, and associations—driving results that matter.
           </p>
         </div>
         <div className={clsx(
@@ -38,6 +40,10 @@ export default function Home() {
           
         )}>
           <MarkdownRenderer markdown={about} />
+        </div>
+
+        <div>
+          <Form/>
         </div>
       </main>
     </div>  
