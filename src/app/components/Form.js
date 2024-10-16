@@ -16,7 +16,7 @@ const Form = () => {
           className={clsx(
             'not-prose w-full',
             'space-y-6 mb-16',
-            'p-8 rounded border border-solid border-rhubarb',
+            'p-8 rounded border-4 border-solid border-whippedCream-dark',
           )}
           id="register"
         >
@@ -84,7 +84,7 @@ const Form = () => {
           className={clsx(
             'not-prose w-full',
             'space-y-6 mb-16',
-            'p-8 rounded border border-solid border-rhubarb',
+            'p-8 rounded border-4 border-solid border-whippedCream-dark',
           )}
         >
           <h2 className="font-bold text-leafyGreen-dark text-3xl text-balance !mt-0">

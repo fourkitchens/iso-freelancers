@@ -18,7 +18,7 @@ export default function Home() {
       <main className="max-w-2xl mx-auto space-y-16 px-4">
         <div className="space-y-4">
           <div className="rounded-lg bg-kitchensKelly-light text-leafyGreen inline-block px-4 py-2 uppercase font-bold text-xl ">In search of...</div>
-          <h1 className="text-5xl font-bold">Freelance Content Strategist </h1>
+          <h1 className="text-5xl font-bold">Freelance Content Strategist</h1>
           <h2 className="text-4xl text-balance text-leafyGreen-light">Help Non-Profits and Universities Tell Their Stories</h2>
           <p className="text-xl mt-8">Four Kitchens seeks a talented freelance Content Strategist and Writer for ongoing collaboration. You&apos;ll craft content strategies and create engaging, impactful content for clients in higher education, non-profits, and associations—driving results that matter.
           </p>
