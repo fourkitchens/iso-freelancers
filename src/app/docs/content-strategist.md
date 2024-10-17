@@ -9,9 +9,9 @@
 
 ## In this freelance role you will focus on…
 
-- Content strategy: The core of the role. You'll craft strategies to reach diverse audiences through various channels—blogs, social media, newsletters, research, and multimedia—tailored to each client's needs. We'll develop and execute strategies based on business goals and audience trends, continuously measuring and adjusting for optimal results.
-- Content for websites: When it comes to building an effective digital strategy, we believe content is king; every effective website requires excellent content strategy as a foundation.
-- Content marketing: The breadth of your talents will be showcased as we work together on behalf of our clients to deliver against various business goals using all appropriate content channels: social media, blogs, email newsletters, and any other platforms that offer the best results.
+- **Content strategy:** The core of the role. You'll craft strategies to reach diverse audiences through various channels—blogs, social media, newsletters, research, and multimedia—tailored to each client's needs. We'll develop and execute strategies based on business goals and audience trends, continuously measuring and adjusting for optimal results.
+- **Content for websites:** When it comes to building an effective digital strategy, we believe content is king; every effective website requires excellent content strategy as a foundation.
+- **Content marketing:** The breadth of your talents will be showcased as we work together on behalf of our clients to deliver against various business goals using all appropriate content channels: social media, blogs, email newsletters, and any other platforms that offer the best results.
 
 ## Skills we want you to have
 

@@ -6,6 +6,7 @@ import about from '@/app/docs/about.md';
 import MarkdownRenderer from '@/app/components/MarkdownRenderer';
 import clsx from 'clsx';
 import Form from "../app/components/Form";
+import Footer from '@/app/components/Footer';
 
 export default function Home() {
   return (
@@ -46,6 +47,8 @@ export default function Home() {
           <Form/>
         </div>
       </main>
+
+      <Footer/>
     </div>  
   );
 }
