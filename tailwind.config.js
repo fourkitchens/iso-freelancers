@@ -1,15 +1,14 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+// eslint-disable-next-line import/no-extraneous-dependencies
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  safelist: [
-    'text-kitchensKelly',
-  ],
+  safelist: ['text-kitchensKelly'],
   theme: {
     fontFamily: {
       sans: ['mundial', ...defaultTheme.fontFamily.sans],
@@ -26,12 +25,10 @@ module.exports = {
           DEFAULT: '#F8F5EC',
           dark: '#EEEADE',
         },
-        rhubarb: { DEFAULT: '#E17C6F' }
+        rhubarb: { DEFAULT: '#E17C6F' },
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-  ],
+  // eslint-disable-next-line import/no-extraneous-dependencies, global-require
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 };

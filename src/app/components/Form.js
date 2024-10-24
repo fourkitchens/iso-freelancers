@@ -1,6 +1,6 @@
 import clsx from 'clsx';
-import { subscribeAction } from "../subscribeAction";
-import { useFormState } from "react-dom";
+import { useFormState } from 'react-dom';
+import { subscribeAction } from '../subscribeAction';
 
 const Form = () => {
   const [formState, formAction] = useFormState(subscribeAction, {
@@ -21,7 +21,11 @@ const Form = () => {
           id="register"
         >
           <h2 className="font-bold text-leafyGreen-dark text-3xl text-balance !mt-0">
-            Apply to be a <span className='text-kitchensKelly-dark'>content strategy freelancer</span> with Four Kitchens
+            Apply to be a{' '}
+            <span className="text-kitchensKelly-dark">
+              content strategy freelancer
+            </span>{' '}
+            with Four Kitchens
           </h2>
 
           <label className="block space-y-2">
@@ -54,14 +58,24 @@ const Form = () => {
             <span className="text-base font-semibold leading-none uppercase">
               Qualifications and experience, including portfolio link
             </span>
-            <textarea id="links" name="links" rows="3" className="block w-full"></textarea>
+            <textarea
+              id="links"
+              name="links"
+              rows="3"
+              className="block w-full"
+            />
           </label>
-          
+
           <label className="block space-y-2">
             <span className="text-base font-semibold leading-none uppercase">
               Fun fact about yourself
             </span>
-            <textarea id="funfacts" name="funfacts" rows="3" className="block w-full"></textarea>
+            <textarea
+              id="funfacts"
+              name="funfacts"
+              rows="3"
+              className="block w-full"
+            />
           </label>
 
           <div className="relative">
@@ -90,11 +104,15 @@ const Form = () => {
           <h2 className="font-bold text-leafyGreen-dark text-3xl text-balance !mt-0">
             Thank you for applying!
           </h2>
-          <p>You will hear from us in the next business day or so. If you don&apos;t hear from us, reach out to <a href="mailto:randy@fourkitchens.com">randy@fourkitchens.com</a>.</p>
+          <p>
+            You will hear from us in the next business day or so. If you
+            don&apos;t hear from us, reach out to{' '}
+            <a href="mailto:randy@fourkitchens.com">randy@fourkitchens.com</a>.
+          </p>
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
 export default Form;
