@@ -19,6 +19,9 @@ export default function Home() {
 
       <main className="max-w-2xl mx-auto space-y-16 px-4">
         <div className="space-y-4">
+          <div className="bg-rose-300 px-8 py-4 rounded text-xl font-bold text-rose-950">
+            Applications are closed.
+          </div>
           <div className="rounded-lg bg-kitchensKelly-light text-leafyGreen inline-block px-4 py-2 uppercase font-bold text-xl ">
             Help wanted
           </div>
@@ -55,10 +58,6 @@ export default function Home() {
           )}
         >
           <MarkdownRenderer markdown={about} />
-        </div>
-
-        <div>
-          <Form />
         </div>
       </main>
 
