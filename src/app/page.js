@@ -1,12 +1,12 @@
 'use client';
 
 import clsx from 'clsx';
-import Logo from '@/src/app/components/logo';
-import content from '@/src/app/docs/content-strategist.md';
-import about from '@/src/app/docs/about.md';
-import MarkdownRenderer from '@/src/app/components/MarkdownRenderer';
-import Footer from '@/src/app/components/Footer';
-import Form from '@/src/app/components/Form';
+import Logo from '@/app/components/logo';
+import content from '@/app/docs/content-strategist.md';
+import about from '@/app/docs/about.md';
+import MarkdownRenderer from '@/app/components/MarkdownRenderer';
+import Footer from '@/app/components/Footer';
+import Form from '@/app/components/Form';
 
 export default function Home() {
   return (
